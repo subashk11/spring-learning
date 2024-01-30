@@ -1,6 +1,8 @@
 package com.springFramework.game;
 
-public class MarioGame {
+
+//implementing the controls from the interface for loose coupling.
+public class MarioGame implements GamingControls{
 
     //add standard game actions
 

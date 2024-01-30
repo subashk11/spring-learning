@@ -4,10 +4,11 @@ public class GameRunner {
 
     //call the marioGame
 
-    MarioGame game;
+    GamingControls game;
 
-    //constructor to run the game
-    public GameRunner(MarioGame game) {
+    //constructor to set the game
+    //now the constructor can set the game based on the interface.
+    public GameRunner(GamingControls game) {
         this.game = game;
     }
 
