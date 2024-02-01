@@ -1,5 +1,8 @@
 package com.springFramework.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
 
     //call the marioGame
