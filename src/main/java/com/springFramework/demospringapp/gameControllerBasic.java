@@ -17,7 +17,7 @@ public class gameControllerBasic {
         var context = new AnnotationConfigApplicationContext(gameControllerBasic.class);
 
         //call the bean
-        context.getBean(GamingControls.class).up();
+        //context.getBean(GamingControls.class).up();
         context.getBean(GameRunner.class).run();
     }
 }
